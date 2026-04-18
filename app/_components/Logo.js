@@ -15,7 +15,9 @@ function Logo() {
         quality={100}
       />
 
-      <span className="text-xl font-semibold text-primary-100">The Wild Oasis</span>
+      <span className="text-xl font-semibold text-primary-100">
+        The Wild Oasis <span className="mt-6 text-sm text-color-black ">🚧 Currently in development – more features coming soon</span>
+      </span>
     </Link>
   );
 }
